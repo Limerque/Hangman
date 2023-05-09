@@ -89,6 +89,7 @@ button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
 .help-popup {
   position: fixed;
   top: 0;
@@ -130,6 +131,8 @@ button:disabled {
 .help-content button:hover {
   background-color: #45a049;
 }
+
+/* Responsive styles for screens smaller than 600px */
 @media screen and (max-width: 600px) {
   .word {
     font-size: 10vw; /* Adjust the font size for smaller screens */
@@ -138,3 +141,5 @@ button:disabled {
   .hangman-image {
     max-height: 200px; /* Adjust the max-height for smaller screens */
   }
+
+}
